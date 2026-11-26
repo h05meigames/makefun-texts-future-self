@@ -16,7 +16,7 @@
 - **Cacat v2 yang diperbaiki:** (1) "in front of your kids" menjadikan anak-anak penonton pasif di pinggir adegan, bukan sasaran penghinaan; (2) punch v2 dikubur — sesudah "in front of your kids" masih ada dua fragmen ("Delete it all. Now.") yang menginjak tawa.
 - **Perbaikan:** anak-anak jadi audiens langsung ("to your kids") di adegan konkret ("over dinner"); perintah panik dihapus (suara diri masa depan sudah diwakili "Future you here"); baris berakhir tepat di kata punch "kids". 145 → 127 karakter.
 - **Baris final + karakter:** "Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud over dinner to your kids." — 127 karakter, satu baris.
-- **Commit:** _diisi di bawah setelah push_
+- **Commit:** f93e84563dad5575b28d883aa13728ce768e348f ("v3: kids become the audience, punch lands last (127 chars)") — push OK, HEAD lokal = remote.
 
 ## Repo
 - Rencana: https://github.com/h05meigames/makefun-texts-future-self
