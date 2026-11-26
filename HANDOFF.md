@@ -9,8 +9,14 @@
 - Tugas: satu pesan teks ≤200 karakter dari diri masa depan ke diri sekarang,
   lucu sendiri tanpa setup/konteks.
 
-## Baris final (145 karakter)
-> Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud, in front of your kids. Delete it all. Now.
+## Baris final (127 karakter) — revisi v3
+> Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud over dinner to your kids.
+
+## Revisi v3 (26 Nov 2026 ~15:55 WIB)
+- **Cacat v2 yang diperbaiki:** (1) "in front of your kids" menjadikan anak-anak penonton pasif di pinggir adegan, bukan sasaran penghinaan; (2) punch v2 dikubur — sesudah "in front of your kids" masih ada dua fragmen ("Delete it all. Now.") yang menginjak tawa.
+- **Perbaikan:** anak-anak jadi audiens langsung ("to your kids") di adegan konkret ("over dinner"); perintah panik dihapus (suara diri masa depan sudah diwakili "Future you here"); baris berakhir tepat di kata punch "kids". 145 → 127 karakter.
+- **Baris final + karakter:** "Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud over dinner to your kids." — 127 karakter, satu baris.
+- **Commit:** _diisi di bawah setelah push_
 
 ## Repo
 - Rencana: https://github.com/h05meigames/makefun-texts-future-self

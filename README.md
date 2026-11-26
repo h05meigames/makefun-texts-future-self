@@ -8,9 +8,9 @@ Entry for [Texts From Your Future Self](https://make.fun/bounty/u-motasimfuad-te
 
 ## The line
 
-> Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud, in front of your kids. Delete it all. Now.
+> Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud over dinner to your kids.
 
-**145 characters.**
+**127 characters.**
 
 ## Run
 

@@ -13,7 +13,7 @@
 //   Pesan dari masa depan harus terasa seperti dikirim ke satu orang yang
 //   spesifik; draf ini bisa dikirim ke siapa pun dan tetap (tidak) lucu.
 //
-// REVISI FINAL (satu ketukan baru):
+// REVISI v2 (satu ketukan baru):
 //   Cacat pada draf v1 adalah tidak adanya adegan: tidak ada yang bisa
 //   dibayangkan juri. Perbaikan: ganti keluhan abstrak dengan satu adegan
 //   konkret dan memalukan — dokter di tahun 2036 membacakan riwayat pencarian
@@ -23,11 +23,25 @@
 //   mengalami konsekuensinya dan tidak sempat bercanda panjang. Sudutnya
 //   segar (bukan bangkrut, bukan lelah), detailnya spesifik (Googling gejala,
 //   2036, anak-anak), dan punchline tiba cepat.
+//
+// REVISI v3 (punchline dikubur + anak jadi penonton pasif):
+//   Cacat nyata v2 ada dua, dan keduanya soal penempatan punch. Pertama,
+//   "in front of your kids" menjadikan anak-anak penonton pasif di pinggir
+//   adegan — mereka kebetulan hadir, bukan sasaran penghinaan. Padahal yang
+//   memalukan adalah dokter membacakan riwayat itu KEPADA mereka. Kedua,
+//   punch v2 ("...in front of your kids") dikubur: sesudahnya masih ada dua
+//   fragmen ("Delete it all. Now.") yang menginjak tawa — lelucon satu baris
+//   harus berakhir tepat di kata tertawanya, bukan di epilog perintah.
+//   Perbaikan: anak-anak jadi audiens langsung ("to your kids") di adegan
+//   konkret ("over dinner"), dan perintah panik dihapus — suara diri masa
+//   depan sudah diwakili pembuka "Future you here", jadi baris berakhir
+//   tepat di kata punch "kids". Hasilnya lebih pendek (127 vs 145 karakter)
+//   dan tawa terakhir jatuh di tempat yang benar.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud, in front of your kids. Delete it all. Now.";
+  "Future you here. Stop Googling your symptoms — in 2036 your doctor reads your search history out loud over dinner to your kids.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY + "\n", "utf8");
